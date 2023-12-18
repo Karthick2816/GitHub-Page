@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  overflow: hidden;
+}
+.navbar-menu {
+  height: 90px;
+  background-color: #2f3d46;
+}
+.navbar-menu i {
+  font-size: 50px;
+  color: whitesmoke;
+  margin: 20px 20px;
+}
+.navbar-menu p {
+  font-size: 30px;
+}
+.main-container {
+  background-color: black;
+  height: 90vh;
+}
+
+.main-container .box-1 {
+  height: 500px;
+  background-color: grey;
+  border-radius: 20px;
+  width: 300px;
+}
+.search-box {
+  margin: 50px;
+  width: 100px;
+}
+.search {
+  width: 700px;
+  height: 40px;
+  background-color: blanchedalmond;
+  margin: 0 auto;
+  display: block;
+}
+.cards {
+  height: 200px;
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.cards .card {
+  width: 30%;
+  height: 170px;
+  background-color: grey;
+  border-radius: 12px;
+}
+
+.footer {
+  height: 190px;
+  background-color: grey;
+  border-radius: 20px;
+  width: 80%;
+  margin: 15px auto;
+}
